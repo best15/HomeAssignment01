@@ -234,6 +234,6 @@ font-family assigned and text-alignment as center  */
 }
 
 /* sets the footer heading to font-size 20px */
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
