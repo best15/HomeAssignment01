@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Sets background color of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* sets the header element with padding top-bottom 20px,background color, font color and font family types */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,19 @@ body {
     color: #ffffff;
 }
 
+/* sets the h1 element (inside header element with class header) display inline-block so that it's inline with another element 
+set the font size to 48px*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* sets color of element having class .seo inside h1 element and element with class name header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* sets the navbar padding 15px on top, margin-20px on top-bottom and floated to right side of browser and font family and font size selected */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Nav bar list style set to none ,deletes all the bullets in the list */
 .header nav ul {
     list-style-type: none;
 }
 
+/* sets nav bar links display to inline block to align them next to each other with margin-left 25px */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets the nav bar links color white and disable any text-decorations */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets font-size to 16px for paragraph */
 p {
     font-size: 16px;
 }
 
+/* sets the dimensions and position of the image in the page and defines image source in url */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,34 @@ p {
     background-position: center;
 }
 
+/* search engine optimizaiton and social-media-marketing image set to left side of article element
+ with margin 25px to right with maximum-height 200px*/
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height:200px
 }
 
+/* online-reputation-management image set to right side of article element with margin 25px to left 
+with maximum height 200px*/
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
+/* sets the contents of h2 element and p element inside of article elements to display inline-block to align in repect with their images and
+next line from another images. sets width75%  of article element with margin 20px from left*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+
+/* sets the aside elements margin 20px to right,padding 20px top and bottom, cleared from article elements
+,floated to right side of page and defined font-family,background color height and width of the aside section  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +109,68 @@ p {
     background-color: #2589bd;
 }
 
+/* sets margin-bottom and color of image and paragraph of 1st div inside  aside section */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* sets margin-bottom and color of image and paragraph of 2nd div inside  aside section */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* sets margin-bottom and color of image and paragraph of 3rd div inside  aside section */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* sets margin-bottom and text-alignment of the h3 elements of 1st div inside aside section */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* sets margin-bottom and text-alignment of the h3 elements of 2nd div inside aside section */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* sets margin-bottom and text-alignment of the h3 elements of 3rd div inside aside section */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* sets the display in block and margin top-bottom 10px and right-left auto and maximum width to 150px
+of the first image of aside section */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* sets the display in block and margin top-bottom 10px and right-left auto and maximum width to 150px
+of the second image of aside section */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* sets the display in block and margin top-bottom 10px and right-left auto and maximum width to 150px
+of the third image of aside section */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* sets the search-engine-optimization whole section with margin 20px at bottom , padding 50px on top-bottom,
+300px height of the section with background color,color and font-family assigned*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +180,8 @@ p {
     color: #ffffff;
 }
 
+/* sets the online-reputation-management whole section with margin 20px at bottom , padding 50px on top-bottom,
+300px height of the section with background color,color and font-family assigned*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +191,8 @@ p {
     color: #ffffff;
 }
 
+/* sets the social-media-marketing whole section with margin 20px at bottom , padding 50px on top-bottom,
+300px height of the section with background color,color and font-family assigned*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +202,26 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
+/* sets the h2 heading under search-engine-optimization div with margin-bottom 20px and font-size set to 36px*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets the h2 heading under online-reputation-management div with margin-bottom 20px and font-size set to 36px*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets the h2 heading under social-media-marketing div with margin-bottom 20px and font-size set to 36px*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*sets the footer padding 30px top-bottom and cleared from other element.
+font-family assigned and text-alignment as center  */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/* sets the footer heading to font-size 20px */
 .footer h2 {
     font-size: 20px;
 }
