@@ -4,10 +4,17 @@
     margin: 0;
 }
 
+
 /* Sets background color of the page */
 body {
     background-color: #d9dcd6;
 }
+
+/* sets font-size to 16px for paragraph */
+p {
+    font-size: 16px;
+}
+
 
 /* sets the header element with padding top-bottom 20px,background color, font color and font family types */
 .header {
@@ -55,10 +62,6 @@ a {
     text-decoration: none;
 }
 
-/* sets font-size to 16px for paragraph */
-p {
-    font-size: 16px;
-}
 
 /* sets the dimensions and position of the image in the page and defines image source in url */
 .hero {
@@ -68,6 +71,57 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* sets the search-engine-optimization whole section with margin 20px at bottom , padding 50px on top-bottom,
+300px height of the section with background color,color and font-family assigned*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets the online-reputation-management whole section with margin 20px at bottom , padding 50px on top-bottom,
+300px height of the section with background color,color and font-family assigned*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets the social-media-marketing whole section with margin 20px at bottom , padding 50px on top-bottom,
+300px height of the section with background color,color and font-family assigned*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets the h2 heading under search-engine-optimization div with margin-bottom 20px and font-size set to 36px*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* sets the h2 heading under online-reputation-management div with margin-bottom 20px and font-size set to 36px*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* sets the h2 heading under social-media-marketing div with margin-bottom 20px and font-size set to 36px*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* search engine optimizaiton and social-media-marketing image set to left side of article element
@@ -169,56 +223,6 @@ of the third image of aside section */
     max-width: 150px;
 }
 
-/* sets the search-engine-optimization whole section with margin 20px at bottom , padding 50px on top-bottom,
-300px height of the section with background color,color and font-family assigned*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* sets the online-reputation-management whole section with margin 20px at bottom , padding 50px on top-bottom,
-300px height of the section with background color,color and font-family assigned*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* sets the social-media-marketing whole section with margin 20px at bottom , padding 50px on top-bottom,
-300px height of the section with background color,color and font-family assigned*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* sets the h2 heading under search-engine-optimization div with margin-bottom 20px and font-size set to 36px*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* sets the h2 heading under online-reputation-management div with margin-bottom 20px and font-size set to 36px*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* sets the h2 heading under social-media-marketing div with margin-bottom 20px and font-size set to 36px*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /*sets the footer padding 30px top-bottom and cleared from other element.
 font-family assigned and text-alignment as center  */
